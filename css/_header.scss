@@ -1,0 +1,34 @@
+.header-page {
+}
+.header {
+}
+.header__nav {
+}
+.header__logo {
+	span {
+		color: $primaryBrand;
+	}
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 2.4; /* 116.667% */
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+	color: $dark;
+}
+.header__menu-list {
+}
+.nav-menu {
+}
+.nav-menu__link {
+	a {
+		font-weight: 500;
+	}
+}
+.header__adress {
+}
+.header-adress {
+}
+.header-adress__mailto {
+}
+.header-adress__tel {
+}
