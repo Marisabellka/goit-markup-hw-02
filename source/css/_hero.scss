@@ -1,0 +1,31 @@
+.hero-page {
+	background-color: $heroBackground;
+	padding: 236px 0 188px 0;
+}
+.hero-page__title {
+	color: $whiteBackground;
+	text-align: center;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 60px; /* 107.143% */
+	letter-spacing: 1.12px;
+}
+.title {
+}
+.hero-page__button {
+	border-radius: 4px;
+	padding: 16px 32px;
+	background-color: $primaryBrand;
+	color: $whiteBackground;
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.64px;
+	text-align: center;
+	margin-top: 16px;
+}
+.button {
+}
+.heropage {
+	text-align: center;
+}

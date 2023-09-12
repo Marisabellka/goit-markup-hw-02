@@ -1,0 +1,49 @@
+.header-page {
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+}
+.header__logo {
+	span {
+		color: $primaryBrand;
+	}
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 2.4; /* 116.667% */
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+	color: $dark;
+	margin-right: 76px;
+}
+.header__menu-list {
+}
+.nav-menu {
+	display: flex;
+	column-gap: 40px;
+}
+.nav-menu__link {
+	a {
+		font-weight: 500;
+		line-height: 24px; /* 150% */
+		letter-spacing: 0.32px;
+		color: $dark;
+	}
+}
+.header__adress {
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+}
+.header-adress {
+}
+.header-adress__mailto {
+	margin-right: 40px;
+}
+.header-adress__tel {
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header-page header">
+      <nav class="header__nav">
+        <a class="header__logo" href="./index.html"><span>Web</span>Studio</a>
+        <ul class="header__menu-list nav-menu">
+          <li class="nav-menu__link"><a href="">Studio</a></li>
+          <li class="nav-menu__link">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-menu__link"><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="header__adress header-adress">
+        <a class="header-adress__mailto" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="header-adress__tel" href="tel:+11(000)111111"
+          >+11 (000) 111-11-11</a
+        >
+      </address>
+    </header>
+    <section class="hero-page">
+      <h1 class="hero-page__title title">
+        Effective Solutions for Your Business
+      </h1>
+      <button class="hero-page__button button">Order Service</button>
+    </section>
+    <section class="features-page">
+      <ul class="features-page__menu menu-features">
+        <li class="menu-features__item">
+          <h2 class="menu-features__title">Strategy</h2>
+          <p class="menu-features__text">
+            Our goal is to identify the business problem to walk away with the
+            perfect and creative solution.
+          </p>
+        </li>
+        <li class="menu-features__item">
+          <h2 class="menu-features__title">Punctuality</h2>
+          <p class="menu-features__text">
+            Bring the key message to the brand's audience for the best price
+            within the shortest possible time.
+          </p>
+        </li>
+        <li class="menu-features__item">
+          <h2 class="menu-features__title">Diligence</h2>
+          <p class="menu-features__text">
+            Research and confirm brands that present the strongest digital
+            growth opportunities and minimize risk.
+          </p>
+        </li>
+        <li class="menu-features__item">
+          <h2 class="menu-features__title">Technologies</h2>
+          <p class="menu-features__text">
+            Design practice focused on digital experiences. We bring forth a
+            deep passion for problem-solving.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="works-page">
+      <h1 class="works-page__title">What are we doing</h1>
+      <ul class="work-page__menu menu-works-page">
+        <li class="menu-works-page__item">
+          <img class="menu-works-page__img" src="./img/work1.jpg" alt="" />
+        </li>
+        <li class="menu-works-page__item">
+          <img class="menu-works-page__img" src="./img/work22.jpg" alt="" />
+        </li>
+        <li class="menu-works-page__item">
+          <img class="menu-works-page__img" src="./img/work3.jpg" alt="" />
+        </li>
+      </ul>
+    </section>
+    <section class="team-page">
+      <h1 class="team-page__title">Our Team</h1>
+      <ul class="team-page__list team-list">
+        <li class="team-list__item team-item">
+          <img class="team-item__img" src="./img/team1.jpg" alt="" />
+          <h2 class="team-item__name">Mark Guerrero</h2>
+          <p class="team-item__proffession">Product Designer</p>
+        </li>
+        <li class="team-list__item">
+          <img class="team-item__img" src="./img/team2.jpg" alt="" />
+          <h2 class="team-item__name">Tom Ford</h2>
+          <p class="team-item__proffession">Frontend Developer</p>
+        </li>
+        <li class="team-list__item">
+          <img class="team-item__img" src="./img/team33.jpg" alt="" />
+          <h2 class="team-item__name">Camila Garcia</h2>
+          <p class="team-item__proffession">Marketing</p>
+        </li>
+        <li class="team-list__item">
+          <img class="team-item__img" src="./img/team4.jpg" alt="" />
+          <h2 class="team-item__name">Daniel Wilson</h2>
+          <p class="team-item__proffession">UI Designer</p>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer-page">
+      <a class="footer-page__logo" href="">WEBStudio</a>
+      <p class="footer-page__description">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<!-- ================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+	 <link rel="stylesheet" href="./css/styles.css">
+	 <link rel="stylesheet" href="./portfolio.html">
+  </head>
+  <body>
+    <header class="header-page header">
+      <nav class="header__nav">
+        <a class="header__logo" href="./index.html">WebStudio</a>
+        <ul class="header__menu-list nav-menu">
+          <li class="nav-menu__link"><a href="./index.html">Studio</a></li>
+          <li class="nav-menu__link"><a href="">Portfolio</a></li>
+          <li class="nav-menu__link"><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="header__adress header-adress">
+        <a class="header-adress__mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-adress__tel" href="tel:+11(000)111111">+11 (000) 111-11-11</a>
+      </address>
+    </header>
+  <section>
+    <h1>yyiuyiuyiuyi</h1>
+    <ul class="menu_choose menu">
+        <li>All</li>
+        <li>Web Site</li>
+        <li>App</li>
+        <li>Design</li>
+        <li>Marketing</li>
+    </ul>
+    <ul class="menu_card card">
+        <!-- card1 -->
+        <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card1.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Banking App Interface Concept</h2>
+                <p class="menu_card_text">App</p>
+            </div>
+        </li >
+        <!-- card2 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card2.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Cashless Payment</h2>
+                <p class="menu_card_text">Marketing</p>
+            </div>
+        </li >
+		  <!-- card3 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card3.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Meditation App</h2>
+                <p class="menu_card_text">App</p>
+            </div>
+        </li >
+		  <!-- card4 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card4.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Taxi Service</h2>
+                <p class="menu_card_text">Marketing</p>
+            </div>
+        </li >
+		  <!-- card5 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card5.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Screen Illustrations</h2>
+                <p class="menu_card_text">Design</p>
+            </div>
+        </li >
+        <!-- card6 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card6.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Online Courses</h2>
+                <p class="menu_card_text">Marketing</p>
+            </div>
+        </li >
+<!-- card7 -->
+ <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card7.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Instagram Stories Concept</h2>
+                <p class="menu_card_text">Design</p>
+            </div>
+        </li >
+		  <!-- card8 -->
+ <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card8.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Organic Food</h2>
+                <p class="menu_card_text">Web Site</p>
+            </div>
+        </li >
+		  <!-- card9 -->
+		  <li class="menu_card_link">
+            <div class="menu_card_item">
+                <img class="menu_card_foto" src="./img_portfolio/card9.jpg" alt="">
+            </div>
+            <div class="menu_card__item">
+                <h2 class="menu_card_title">Fresh Coffee</h2>
+                <p class="menu_card_text">Web Site</p>
+            </div>
+        </li >
+  </section>
+    <footer class="footer-page">
+      <a class="footer-page__logo"href="">WEBStudio</a>
+      <p class="footer-page__description">
+        Increase the flow of customers and sales for your business with digital
+        marketing &amp; growth solutions.
+      </p>
+    </footer>
+  </body>
+</html>
