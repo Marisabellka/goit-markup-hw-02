@@ -1,0 +1,25 @@
+.works-page {
+	padding: 120px 0px 120px 0px;
+}
+.works-page__title {
+	text-align: center;
+
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 40px; /* 111.111% */
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+	color: $dark;
+}
+.work-page__menu {
+	display: flex;
+	column-gap: 24px;
+	justify-content: center;
+}
+.menu-works-page {
+	margin: 72px 0px 0px 0px;
+}
+.menu-works-page__item {
+}
+.menu-works-page__img {
+}
