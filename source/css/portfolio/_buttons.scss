@@ -1,0 +1,19 @@
+.buttons {
+	display: flex;
+	column-gap: 24px;
+	justify-content: center;
+	padding: 96px 0px 36px 0px;
+}
+.buttons__item {
+	button {
+		padding: 12px 24px;
+		border-radius: 4px;
+		border: 1px solid $accent;
+		background-color: $light;
+		&:hover,
+		&:focus {
+			background-color: $presedState;
+			color: $mainColor;
+		}
+	}
+}

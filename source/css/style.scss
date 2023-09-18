@@ -1,9 +1,11 @@
-@import "_variables.scss";
+@import "_variables";
 @import "_null.scss";
 @import "_header.scss";
 // main
-@import "_hero.scss";
-@import "_features.scss";
-@import "_works.scss";
-@import "_team.scss";
+@import "studio/_hero.scss";
+@import "studio/_features.scss";
+@import "studio/_works.scss";
+@import "studio/_team.scss";
+// portfolio
+@import "portfolio/buttons.scss";
 @import "_footer.scss";
